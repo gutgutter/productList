@@ -12,7 +12,7 @@ include_once 'components/saveProduct.php';
     </div>
     <div class="col-sm-4">
       <div style="float:right">
-        <button class="btn btn-sm btn-success" type="submit" form="product_form" name="save" style="display: inline-block; margin-right: 10px">SAVE</button>
+        <button class="btn btn-sm btn-success" id="SAVE" type="submit" form="product_form" name="save" style="display: inline-block; margin-right: 10px">Save</button>
         <button class="btn btn-sm btn-danger" type="submit" id="cancelButton"
         style="display: inline-block; margin-right: 10px">CANCEL</button>
         <script type="text/javascript">
@@ -63,9 +63,9 @@ include_once 'components/saveProduct.php';
         <div class="col-sm-5">
           <select class="form-control" name="type" id="productType" >
             <option selected value="">Type Switcher</option>
-            <option value="1">1 - DVD</option>
-            <option value="2">2 - Book</option>
-            <option value="3">3 - Furniture</option>
+            <option value="1">DVD</option>
+            <option value="2">Book</option>
+            <option value="3">Furniture</option>
           </select>
           <span class="error"><?php echo $errType;?></span>
         </div>

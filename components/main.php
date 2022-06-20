@@ -25,7 +25,7 @@ while ($row = $results -> fetch(PDO::FETCH_OBJ)) {
       <div class='card-deck'>
         <div class='card border-2 border-success mb-3'>
           <div class='form-check pb-3'>
-            <input class='form-check-input' type='checkbox' 
+            <input type='checkbox' 
             form='delete_form' name='delete[]' value='$row->product_id' class='delete-checkbox'>
         
           </div>

@@ -1,6 +1,6 @@
 <hr>
-<footer class="mt-auto">
-  <span class="text-muted">Scandiweb Test Assignment</span>
+<footer class="mt-auto text-muted text-center">
+  <span>Scandiweb Test Assignment</span>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
